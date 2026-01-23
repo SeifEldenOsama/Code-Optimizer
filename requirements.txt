@@ -1,0 +1,11 @@
+transformers
+peft
+accelerate
+streamlit
+bitsandbytes
+sentencepiece
+torch
+pandas
+datasets
+trl
+safetensors
