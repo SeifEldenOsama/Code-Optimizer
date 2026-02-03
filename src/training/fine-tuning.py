@@ -41,8 +41,6 @@ def prepare_dataset(path):
     pairs = [make_pair(r) for _, r in df.iterrows()]
     random.shuffle(pairs)
     
-    # Limit for demonstration if needed
-    # pairs = pairs[:3000]
 
     split = int(len(pairs) * 0.9)
     train_ds = Dataset.from_list(pairs[:split])
