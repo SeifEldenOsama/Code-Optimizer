@@ -8,4 +8,4 @@ torch
 pandas
 datasets
 trl
-safetensors
+safetensors 
