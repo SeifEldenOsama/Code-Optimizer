@@ -52,7 +52,6 @@ Results are saved to `./outputs/`.
 
 ## Run the Streamlit app
 
-Install dependencies locally:
 
 ```bash
 modal serve train_modal.py
