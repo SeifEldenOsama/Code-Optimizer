@@ -73,7 +73,7 @@ Edit `config.py` before training:
 | `lora_r` | `64` | LoRA rank |
 | `lora_alpha` | `128` | LoRA alpha |
 | `max_seq_length` | `2048` | Max token length |
-| `hf_output_repo` | `""` | Set to push adapter to HF Hub |
+| `hf_output_repo` | `"SeifElden2342532/Code-Optimizer"` | Set to push adapter to HF Hub |
 
 ## Dataset format
 
