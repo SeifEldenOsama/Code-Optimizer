@@ -78,7 +78,7 @@ def train_remote():
 
 @app.function(
     image=app_image,
-    gpu="T4",
+    gpu="A100",
     timeout=60 * 60 * 2,
     volumes={VOLUME_MOUNT: volume},
     secrets=[HF_SECRET],
