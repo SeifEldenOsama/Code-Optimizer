@@ -55,14 +55,9 @@ Results are saved to `./outputs/`.
 Install dependencies locally:
 
 ```bash
-pip install streamlit transformers peft torch accelerate
+modal serve train_modal.py
 ```
 
-Then run:
-
-```bash
-streamlit run app.py
-```
 
 The sidebar lets you point to the adapter path (defaults to `./outputs/code-opt-qwen`).
 Paste any Python code on the left, click **Optimize**, and the model output appears on the right.
